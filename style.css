@@ -1,0 +1,79 @@
+body{
+    margin:0;
+}
+.header{
+    padding:30px;
+    background: #3399CC;
+    text-align: left;
+}
+.header p{
+    color: white;
+    font-family: Century Gothic, sans-serif;
+    align-content: flex-start;
+    font-size: 3.0rem;
+    margin:0;
+    font-weight: 500;
+}
+#links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333333;
+}
+#links li{
+    float: left;
+    display: block;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#links li a{
+    text-decoration: none;
+    color: white;
+}
+#links .blog{
+    float: right;
+    padding: 5.2px 25px;
+}
+.news{
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1.55px solid #d3d3d3;
+    width: fit-content;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.news h3{
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#news{
+    margin: 0;
+    padding-left: 18px;
+    list-style-type: none;
+}
+#news li:before{
+    content: "- ";
+    text-indent: -10px;
+}
+#news li{
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.intro{
+    margin-left: 50px;
+    margin-right: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.intro h3{
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-weight: 600;
+}
